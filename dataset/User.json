@@ -1,6 +1,11 @@
 {
-	"name": "AzurePostgreSqlTable1",
+	"name": "User",
 	"properties": {
+		"parameters": {
+			"id": {
+				"type": "int"
+			}
+		},
 		"annotations": [],
 		"type": "AzurePostgreSqlTable",
 		"schema": []
